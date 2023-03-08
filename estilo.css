@@ -1,0 +1,1055 @@
+/* CSS Document */
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#FFF;
+	font-family: 'Varela Round', sans-serif;
+	margin:0;
+}
+
+a	{
+	text-decoration: none;
+	}
+
+img
+	{
+	border: 0px;
+	text-decoration: none;
+	}
+	
+#container
+	{
+	width: 982px;
+	height: auto;
+	overflow: hidden;
+	margin: auto;
+	}
+
+.section{
+	height: auto;
+    width: 100%;
+	padding-top: 30px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+
+	.section h1
+	{
+	color: #000;
+	letter-spacing: -1px;
+	font-stretch: ultra-condensed;
+	text-align: left;
+	font-weight: 800;
+	font-size: 16px;
+	height: 37px;
+	width: 206px;
+	border: 1px solid black;
+	margin: auto;
+	text-align: center;
+	display: block;
+	line-height: 37px;
+	vertical-align: middle;
+	}
+	
+	.white
+{
+	color: #FFF;
+	letter-spacing: -1px;
+	font-stretch: ultra-condensed;
+	text-align: left;
+	font-weight: 400;
+	font-size: 14px;
+	height: 37px;
+	width: 45%;
+	padding: 0 10px 0 10px;
+	border: 1px solid white;
+	margin: auto;
+	text-align: center;
+	display: block;
+	line-height: 37px;
+	vertical-align: middle;
+	margin-bottom: 20px;
+}
+	
+
+
+/************************************************************************************
+BG PARALLAX
+*************************************************************************************/	
+/** formata elementos que tem backgrounds parallax **/
+		.bgParallax {
+			/* margin: 0 auto; */
+			margin: 0 auto;
+			width: 100%;
+			height: 100%; 
+			/* max-width: 982px;*/
+			position: relative;
+			/* min-height: 100%; */
+			/* min-height: 300px; */
+			/* background-position: 50% 0;*/
+			background-repeat: repeat;
+			background-attachment: fixed;
+			margin-top: 30px;
+			padding-bottom: 20px;
+		}
+		
+		.bgParallax2 {
+			margin: 0 auto;
+			width: 100%;
+			height: 100%; 
+			position: relative;
+			background-repeat: repeat;
+			background-attachment: fixed;
+			margin-top: 30px;
+			padding-bottom: 20px;
+		}
+
+		/* Define backgrounds dos divs */
+		#missao {
+			background-image: url(imagens/f_especifica.jpg);
+			min-height: 500px;
+			background-position: 70% 0;
+		}
+		
+		#missao2 {
+			background-image: url(imagens/f_imagem_video.jpg);
+			/*min-height: 250px; */
+			background-position: 50% 0;
+		}
+		
+		#missao3 {
+			background-image: url(imagens/f_360.jpg);
+			/*min-height: 250px; */
+			background-position: -50% 0;
+		}
+		
+
+		.bg_video{
+			/*position: relative;
+			right: 0;
+			bottom: 0;*/
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			z-index: -1000;
+			/*background: url(images/torre.jpg) no-repeat;
+			background-size: cover;*/
+			background-color: #FF0000;
+			}
+		
+
+/************************************************************************************
+ELEMENTOS GERAIS
+*************************************************************************************/
+
+.bt
+	{
+	color: #000;
+	letter-spacing: -1px;
+	font-stretch: ultra-condensed;
+	text-align: left;
+	font-weight: 300;
+	font-size: 13px;
+	height: 32px;
+	width: 134px;
+	border: 1px solid black;
+	margin: auto;
+	text-align: center;
+	display: block;
+	line-height: 32px;
+	vertical-align: middle;
+	transition: background-color 0.5s ease 0s;
+	cursor: pointer;
+	}
+	
+.bt:hover
+	{
+	color: #FFFFFF;
+	background-color:#FC9126;
+	border: 1px solid #FC9126;
+	}
+
+/************************************************************************************
+TOPO
+*************************************************************************************/
+
+#topo
+{
+width: 100%;
+height: 150px;
+position:absolute; 
+top:0; 
+left:0;
+z-index: 70;
+}
+
+#topo1800
+{
+max-width: 1800px;
+width: 100%;
+height: 150px;
+margin: auto;
+position: relative;
+}
+
+.logo
+{
+margin: 24px 0 0 36px;
+float: left;
+}
+
+.logo_cv
+{
+top: 57px;
+right: 28px;
+float: left;
+width: 247px;
+height: 65px;
+display: block;
+position: absolute;
+text-decoration: none;
+border: 0;
+}
+
+.menu
+{
+width: 794px;
+height: 55px;
+float: right;
+background-image:url(imagens/f_menu.png);
+text-align: right;
+}
+
+	.slogan1
+	{
+	color: #FFF;
+	letter-spacing: -1px;
+	font-stretch: ultra-condensed;
+	text-align: left;
+	font-weight: 800;
+	font-size: 2.188em; /* 35px */
+	height: 37px;
+	width: 100%;
+	border: 0px solid #FFF;
+	margin: auto;
+	text-align: center;
+	display: block;
+	line-height: 37px;
+	vertical-align: middle;
+	margin: auto;
+	}
+	.slogan2
+	{
+	color: #FFF;
+	letter-spacing: 0px;
+	font-stretch: ultra-condensed;
+	text-align: left;
+	font-weight: 800;
+	font-size: 1.125em; /* 18px */
+	height: 37px;
+	width: 100%;
+	border: 0px solid #FFF;
+	margin: auto;
+	text-align: center;
+	display: block;
+	line-height: 37px;
+	vertical-align: middle;
+	margin: auto;
+	}
+
+.menu a
+{
+	display: inline-block;
+	color: #2C2B27;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 55px;
+	vertical-align: middle;
+	transition: background-color 0.5s ease 0s;
+	cursor: pointer;
+	padding: 0 12px 0 12px;
+	text-decoration: none;
+	width: auto;
+    min-height: 55px;
+    display: -moz-inline-stack;
+    zoom: 1;
+    *display: inline;
+    _height: 55px;
+}
+
+.band
+ {
+ margin: 0 30px 0 20px;
+ float: right;
+ font-size: 10px;
+ }
+
+.band a
+{
+	font-weight: 400;
+	font-size: 10px;
+	padding: 0 5px 0 5px;
+}
+
+/************************************************************************************
+SOBRE N�S
+*************************************************************************************/
+
+.sobre
+{
+margin-top: 65px;
+}
+
+.symb
+{
+margin-top: 10px;
+width: 234px;
+height: 268px;
+float: left;
+display: block;
+background-repeat: no-repeat;
+background-position: center top;
+text-align:center;
+letter-spacing: 0px;
+margin-right: 140px;
+}
+
+.apresenta
+{
+background-image: url(imagens/symb_apresenta.png);
+}
+
+.especifica
+{
+background-image: url(imagens/symb_especificacoes.png);
+}
+
+.evento
+{
+background-image:url(imagens/symb_eventos1.png);
+}
+
+.symb h2
+{
+font-weight: 200;
+font-size: 14px;
+padding-top: 150px;
+text-transform: uppercase;
+}
+
+.symb p
+{
+font-weight: 400;
+font-size: 12px;
+padding: 6px 0px 6px 0px;
+}
+
+/************************************************************************************
+APRESENTA��O
+*************************************************************************************/
+
+.apresentacao
+{
+margin-top: 65px;
+}
+
+.menu_interno
+{
+color: #363636;
+font-size: 10px;
+text-align: center;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.apresentacao a
+{
+color: #363636;
+font-weight: 400;
+font-size: 13px;
+letter-spacing: 1px;
+transition: color 0.5s ease 0s;
+padding: 0 10px 0 10px;
+text-decoration: none;
+}
+
+.apresentacao a:hover
+{
+color: #FF6B00;
+}
+
+.apresentacao h2
+{
+color: #FF6B00;
+font-weight: 400;
+font-size: 15px;
+padding: 60px 0px 0px 0px;
+text-align: center;
+}
+
+.apresentacao p
+{
+color: #333333;
+font-weight: 400;
+font-size: 12px;
+padding: 0px 0px 6px 0px;
+line-height: 25px;
+text-align: center;
+}
+
+/************************************************************************************
+ESPECIFICA��ES
+*************************************************************************************/
+
+.slogan3
+{
+width: 100%;
+height: 350px;
+font-size: 2.500em; /* 40px */
+color: #FFFFFF;
+display: block;
+line-height: 350px;
+vertical-align:middle;
+text-align: center;
+text-shadow: 1px 3px 2px #6E2B02;
+}
+
+/************************************************************************************
+ESPECIFICA��ES
+*************************************************************************************/
+
+.especificacoes
+{
+width: 982px;
+margin: auto;
+}
+
+.especificacoes h1
+{
+	color: #FFF;
+	letter-spacing: -1px;
+	font-stretch: ultra-condensed;
+	text-align: left;
+	font-weight: 800;
+	font-size: 16px;
+	height: 37px;
+	width: 206px;
+	border: 1px solid white;
+	margin: auto;
+	text-align: center;
+	display: block;
+	line-height: 37px;
+	vertical-align: middle;
+}
+
+.symb2
+{
+margin-top: 50px;
+width: 234px;
+height: 154px;
+float: left;
+display: block;
+background-repeat: no-repeat;
+background-position: center top;
+text-align:center;
+letter-spacing: 0px;
+margin-right: 140px;
+overflow: hidden;
+cursor: pointer;
+}
+
+.caract
+{
+background-image: url(imagens/symb_caract1.png);
+}
+
+.planta
+{
+background-image: url(imagens/symb_planta2.png);
+}
+
+.espaco
+{
+background-image:url(imagens/symb_espaco3.png);
+}
+
+.symb2 h2
+{
+font-weight: 400;
+font-size: 12px;
+padding-top: 100px;
+color: white;
+}
+
+/************************************************************************************
+CARACTERISTICAS T�CNICAS
+*************************************************************************************/
+
+.caixa_branca
+{
+background-image:url(imagens/f_caract.png);
+background-repeat: repeat;
+width: 705px;
+height: auto;
+margin: auto;
+display: block;
+padding-top: 20px;
+margin-bottom: 20px;
+overflow: hidden;
+}
+
+.caixa_branca h2
+{
+	color: #000;
+	letter-spacing: -1px;
+	font-stretch: ultra-condensed;
+	text-align: left;
+	font-weight: 800;
+	font-size: 16px;
+	height: 37px;
+	width: 206px;
+	border: 1px solid black;
+	margin: auto;
+	text-align: center;
+	display: block;
+	line-height: 37px;
+	vertical-align: middle;
+	margin-bottom: 20px;
+}
+
+.content_caract
+{
+width: 542px;
+height: auto;
+padding: 0 0 25px 24px;
+float: left;
+overflow:hidden;
+}
+
+.sem_menu_car
+{
+width: 650px;
+}
+
+.content_caract p
+{
+color: #333333;
+font-weight: 400;
+font-size: 12px;
+line-height: 25px;
+text-align: justify;
+margin-bottom: 20px;
+}
+
+.menu_caract
+{
+width: 115px;
+overflow: hidden;
+text-align: center;
+height: 100px;
+float: left;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+.menu_caract a
+{
+color: #151515;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+margin: 10px 0 10px 0;
+}
+
+.menu_caract hr 
+	{ 
+border:#7F7D7D 1px dashed;
+border-style: none none dashed;
+	}
+	
+/************************************************************************************
+GALERIA
+*************************************************************************************/
+
+.galeria
+{
+margin-top: 65px;
+}
+
+.galeria h2
+{
+font-weight: 400;
+font-size: 14px;
+padding: 20px 0px 20px 0px;
+text-align:center;
+display: block;
+}
+
+.thumbs
+{
+width: 245px;
+height: 234px;
+background-position: center;
+cursor: pointer;
+float: left;
+display:block;
+transition: background-color 0.9s ease 0s;
+background-color:#000000;
+}
+
+.trio
+{
+/* background-color: #FF0000; */
+background-image: url(imagens/th_eventos/th_trio.jpg);
+}
+
+.slb
+{
+/* background-color: #FF0000; */
+background-image: url(imagens/th_eventos/th_slb.jpg);
+}
+
+.fcp
+{
+background-image: url(imagens/th_eventos/th_fcp.jpg);
+}
+
+.vsc
+{
+background-image: url(imagens/th_eventos/th_vsc.jpg);
+}
+
+.movistar
+{
+background-image: url(imagens/th_eventos/th_movistar.jpg);
+}
+
+.vivaamerica
+{
+background-image: url(imagens/th_eventos/th_vivaamerica.jpg);
+}
+
+.fcb
+{
+background-image: url(imagens/th_eventos/th_fcb.jpg);
+}
+
+.verao
+{
+background-image: url(imagens/th_eventos/th_verao.jpg);
+}
+
+.oceanos
+{
+background-image: url(imagens/th_eventos/th_oceanos.jpg);
+}
+
+.caloiros
+{
+background-image: url(imagens/th_eventos/th_caloiros.jpg);
+}
+
+.cannes
+{
+background-image: url(imagens/th_eventos/th_cannes.jpg);
+}
+
+.cocacola
+{
+background-image: url(imagens/th_eventos/th_cocacola.jpg);
+}
+
+.cristo
+{
+background-image: url(imagens/th_eventos/th_cristo.jpg);
+}
+
+.tropical
+{
+background-image: url(imagens/th_eventos/th_tropical.jpg);
+}
+
+.blindzero
+{
+background-image: url(imagens/th_eventos/th_blindzero.jpg);
+}
+
+.ponte
+{
+background-image: url(imagens/th_eventos/th_ponte.jpg);
+}
+
+.festrack
+{
+background-image: url(imagens/th_eventos/th_festrack.jpg);
+}
+
+.noitebranca
+{
+background-image:url(imagens/th_eventos/th_noitebranca.jpg);
+}
+
+.thumbs:hover
+{
+background-image: none;
+background-color: #CD9246;
+display:block;
+}
+
+.thumbs span
+{
+display: table-cell;
+font-weight: 400px;
+font-size: 14px;
+color: #FFFFFF;
+width: 245px;
+height: 234px;
+text-align: center;
+vertical-align: middle;
+}
+
+/************************************************************************************
+SLIDE SHOW - GALERIA
+*************************************************************************************/
+
+.slideshow
+{
+width: 982px;
+height: 550px;
+overflow: hidden;
+background-image:url(imagens/fundo_slideshow.jpg);
+background-position: 0 55px;
+background-repeat: no-repeat;
+}
+
+.slide_titulo
+{
+width: 100%;
+height: 55px;
+background-color: #CD9246;
+font-weight: 400;
+font-size: 18px;
+color: #FFF;
+line-height: 55px;
+vertical-align: middle;
+display: block;
+text-align: center;
+}
+
+.slide
+{
+width: 100%;
+height: 432px;
+}
+
+.foto
+{
+width: 772px;
+height: 432px;
+}
+
+.slide_next
+{
+height: 85px;
+width: 85px;
+background-image:url(imagens/next_img.png);
+background-repeat:no-repeat;
+background-position: center;
+cursor: pointer;
+padding-right: 20px;
+position: absolute;
+right: 0;
+}
+
+.slide_prev
+{
+height: 85px;
+width: 85px;
+background-image:url(imagens/prev_img.png);
+background-repeat:no-repeat;
+background-position: center;
+float: left;
+cursor: pointer;
+padding-left: 20px;
+position: absolute;
+left: 0;
+}
+
+/************************************************************************************
+VIDEOS
+*************************************************************************************/
+
+.videos
+{
+margin-top: 65px;
+}
+
+.videos h1
+{
+margin-bottom: 20px;
+}
+
+.lista_videos
+	{
+	width: 982px;
+	height: 350px;
+	margin: auto;
+	position: relative;
+	}
+
+.thumbs_video
+	{
+	position: absolute;
+	top: 130px;
+	width: 981px;
+	height: 190px;
+	}
+	
+.thumb_video
+	{
+	margin-right: 39px;
+	width: 216px;
+	height: 132px;
+	font-size: 16px;
+	color: #FFFFFF;
+	-moz-box-shadow:  1px 1px 6px #000000;
+   -webkit-box-shadow:  1px 1px 6px #000000;
+   box-shadow:  1px 1px 6px #000000;
+	}
+	
+/************************************************************************************
+CONTACTOS
+*************************************************************************************/
+
+.contactos
+{
+background-image: url(imagens/f_contactos.png);
+height: 500px;
+margin-top: 150px;
+}
+
+.contactos h1
+{
+color: #FFF;
+border-color: #FFF;
+}
+
+.contacto
+{
+padding-top: 50px;
+width: 982px;
+height: 387px;
+display: block;
+margin: auto;
+}
+
+.contacto_col
+{
+width: 326px;
+height: auto;
+margin-right: 2px;
+float: left;
+}
+
+.contacto_col p
+{
+color: #FFF;
+font-weight: bold;
+font-size: 13px;
+line-height: 16px;
+margin-bottom: 8px;
+}
+
+.contacto_col span
+{
+font-size: 12px;
+font-weight: 400;
+}
+
+/************************************************************************************
+FORMULARIO
+*************************************************************************************/
+
+#form_contacto
+	{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: auto;
+	text-align: left;
+	/* margin-left: 169px; */
+	}
+
+.field50
+{
+width: 45%;
+height: auto;
+overflow: hidden;
+float:left;
+margin-right: 8px;
+}
+	
+#form_contacto span
+	{
+	display: block;
+	font-weight: 400;
+	font-size: 12px;
+	color: #FFFFFF;
+	}
+	
+#form_contacto input[type="text"]
+    {
+	background-color:#959696;
+	border-color:#959696;
+    font-weight: 400;
+	font-size: 0.875em;
+	color: #FFFFFF;
+	line-height: 25px;
+	height: 25px;
+	vertical-align: middle;
+	border: medium none;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	padding-left: 12px;
+	margin-right: 10px;
+	margin-bottom: 8px;
+	width: 90%;
+	display: block;
+	-moz-box-shadow: inset 1px 1px 6px #000000;
+   -webkit-box-shadow: inset 1px 1px 6px #000000;
+   box-shadow: inset 1px 1px 6px #000000;
+   margin-top: 5px;
+	}
+	
+#form_contacto textarea
+    {
+	background-color:#959696;
+	border-color:#959696;
+    font-weight: 400;
+	font-size: 0.875em;
+	color: #FFFFFF;
+	height: 70px;
+	vertical-align: middle;
+	border: medium none;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	padding-left: 12px;
+	margin-right: 10px;
+	margin-bottom: 8px;
+	width: 88%;
+	display: block;
+	-moz-box-shadow: inset 1px 1px 6px #000000;
+   -webkit-box-shadow: inset 1px 1px 6px #000000;
+   box-shadow: inset 1px 1px 6px #000000;
+   margin-top: 5px;
+   padding-top: 4px;
+	}
+		
+#form_contacto input[type="submit"]
+    {
+	width: 60px;
+	height: 22px;
+	background-color:#949595;
+	border-color:#989697;
+    font-weight: 400;
+	font-size: 12px;
+	color: #363738;
+	line-height: 22px;
+	display: table-cell;
+	vertical-align: middle;
+	border: medium none;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	float: right;
+	cursor: pointer;
+	text-align:center;
+	-moz-box-shadow: inset 1px 1px 6px #000000;
+   -webkit-box-shadow: inset 1px 1px 6px #000000;
+   box-shadow: inset 1px 1px 6px #000000;
+	transition: background-color 0.5s ease 0s;
+	float: left;
+	margin: auto;
+	padding: 0px;
+	}
+	
+#form_contacto input[type="submit"]:hover
+{	
+background-color:#CD9246;
+color: #FFFFFF;
+}
+
+/************************************************************************************
+redes sociais
+*************************************************************************************/
+
+.redes
+{
+width: 37px;
+height: 36px;
+background-position: center;
+cursor: pointer;
+float: left;
+display:block;
+/* transition: background-color 0.9s ease 0s; */
+transition: background 0.9s ease 0.2s;
+}
+
+.facebook
+{
+background-image: url(imagens/fb.png);
+}
+
+.youtube
+{
+background-image: url(imagens/you.png);
+}
+
+.facebook:hover
+{
+background-image: url(imagens/fb_on.png);
+}
+
+.youtube:hover
+{
+background-image: url(imagens/you_on.png);
+}
+
+/* relacionados //////////////////////////
+////////////////////////////////////////*/ 
+.last
+	{
+	margin-right: 0px;
+	}
+
+.hide 
+	{
+	display: none;
+	}
+
+#display
+	{
+	background-image:url(imagens/display.png);
+	width: 28px;
+	height: 16px;
+	display: block;
+	margin: auto;
+	text-decoration: none;
+	padding: 0;
+	}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 1010px or less */
+@media screen and (max-width: 980px) {
+		
+	#topo {
+		display: none;
+	}
+	
+}
